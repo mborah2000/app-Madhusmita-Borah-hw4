@@ -1,0 +1,77 @@
+body { 
+	font-family: sans-serif;
+	
+}
+
+.register{
+	position:relative;
+	width: 550px;	
+	margin: auto;
+  border: #0077ff;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  
+}
+.form{
+	position: relative;
+	background: #ffe0c7;
+	padding: 80px;
+
+}
+.form input{
+  font-size: 18px;
+  margin-bottom: 16px;
+	position: relative;
+	background: #f2f2f2; 
+  display: inline-block;
+  float: left;
+}
+
+.form label{ 
+    color: #0077ff;
+    display: inline-block;
+    font-size: 18px;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    margin-bottom: 16px;
+    margin-right: 7px;
+  
+}
+
+.form textarea {
+	position: relative;
+    margin-bottom: 20px;
+    margin-top: 20x;
+}
+
+.form button{
+	position: relative;
+	margin: 0px 500px 0px 155px;
+	background: #0077ff;
+	width: 80px;
+	padding: 2px;
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;
+  border-radius: 5px;
+}
+.hide {
+  display: none;
+}
+
+.error {
+  color: red;
+  margin: 0px 0px 0px 155px;
+}
+
+.correct {
+  color: green;
+  margin: 0px 0px 0px 155px;
+}
+
+.visible {
+  display: block;
+}
